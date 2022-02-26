@@ -10,4 +10,5 @@ struct R {
 
     static let bundle = Bundle.main
     static let nib = Nibs()
+    static let file = Files()
 }

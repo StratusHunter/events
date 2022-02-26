@@ -1,0 +1,1199 @@
+{
+  "links": {
+    "last": "https://api.fatsoma.com/v1/events?fields[events]=name,starts-at\u0026fields[locations]=name\u0026include=location\u0026page[number]=884\u0026page[size]=10",
+    "next": "https://api.fatsoma.com/v1/events?fields[events]=name,starts-at\u0026fields[locations]=name\u0026include=location\u0026page[number]=2\u0026page[size]=10"
+  },
+  "data": [{
+    "type": "events",
+    "id": "72ef19ee-5273-4626-9456-dbda6777c405",
+    "attributes": {
+      "name": "Shit Indie Disco - 5 floors of Music plus - Sam Fender V Gerry Cinnamon V Liam Gallagher - SHINDIE ROYAL RUMBLE",
+      "starts-at": "2022-03-03T22:00:00+00:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/announcer",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/categories",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/lineups",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/location",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "0c458e9b-3707-4dca-9e7e-ec183644da8f"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/occasions",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/occasions"
+        }
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/page",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "fbcbc6bb-187e-46b9-8952-f5aa763fff69"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/rep-incentives"
+        },
+        "meta": {
+          "amount-max": 100,
+          "amount-min": 100
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/tickets",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/72ef19ee-5273-4626-9456-dbda6777c405/relationships/tracking-codes"
+        }
+      }
+    }
+  }, {
+    "type": "events",
+    "id": "e53c684f-0b90-471c-b005-3132aa1752b9",
+    "attributes": {
+      "name": "Taylor Swift Tribute Act at Zanzibar - FREE ENTRY TO SHINDIE WITH A TICKET",
+      "starts-at": "2022-04-07T20:00:00+01:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/announcer",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/categories",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/lineups",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/location",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "745d4178-1dc7-42b6-b1f9-2de3ad60151f"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/occasions",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/occasions"
+        }
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/page",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "fbcbc6bb-187e-46b9-8952-f5aa763fff69"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/rep-incentives"
+        },
+        "meta": {
+          "amount-max": 100,
+          "amount-min": 100
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/tickets",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/e53c684f-0b90-471c-b005-3132aa1752b9/relationships/tracking-codes"
+        }
+      }
+    }
+  }, {
+    "type": "events",
+    "id": "066082cc-86a8-4368-893c-f98fe9ddc5ef",
+    "attributes": {
+      "name": "INDIE SATURDAYS at Zanzibar UNTIL 6AM - LAUNCH NIGHT",
+      "starts-at": "2022-03-12T23:00:00+00:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/announcer",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/categories",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/lineups",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/location",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "54fd3db8-7c80-484f-929c-a81e89a0bba8"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/occasions",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/occasions"
+        }
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/page",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "fbcbc6bb-187e-46b9-8952-f5aa763fff69"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/rep-incentives"
+        },
+        "meta": {
+          "amount-max": 100,
+          "amount-min": 100
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/tickets",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/066082cc-86a8-4368-893c-f98fe9ddc5ef/relationships/tracking-codes"
+        }
+      }
+    }
+  }, {
+    "type": "events",
+    "id": "9517a17b-9423-45be-b84d-32d52162d0e9",
+    "attributes": {
+      "name": "Freshers House Party | The UK's CRAZIEST Freshers Tour - Sign Up NOW for Freshers 2022!",
+      "starts-at": "2022-09-04T22:00:00+01:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/announcer",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/categories",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/lineups",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/location",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "21b2f5c6-f656-4185-ae64-06d950900d02"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/occasions",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/occasions"
+        },
+        "data": [{
+          "type": "occasions",
+          "id": "e2f67ae4-8804-480a-81cd-b94bc69df12a"
+        }]
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/page",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "e146884d-20e3-4d39-94ad-8658f14c1264"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/rep-incentives"
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/tickets",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/9517a17b-9423-45be-b84d-32d52162d0e9/relationships/tracking-codes"
+        }
+      }
+    }
+  }, {
+    "type": "events",
+    "id": "075bf366-3214-429c-9316-6492b0f4cb44",
+    "attributes": {
+      "name": "New Years Eve in London 2023 - December 31st 2022 : SIGN UP NOW!",
+      "starts-at": "2022-12-31T23:00:00+00:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/announcer",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/categories",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "7c250c41-1695-4faa-b5e0-a87f0a734ece"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/lineups",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/location",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "2b526aa1-d130-4491-988d-db41a22789e6"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/occasions",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/occasions"
+        }
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/page",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "75936025-c9ab-471e-aed7-6ba1ad80545c"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/rep-incentives"
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/tickets",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/075bf366-3214-429c-9316-6492b0f4cb44/relationships/tracking-codes"
+        }
+      }
+    }
+  }, {
+    "type": "events",
+    "id": "212a5d49-eb09-42e5-8598-9e3a7b517924",
+    "attributes": {
+      "name": "FREE SIGN UP FOR LONDON FRESHERS 2022 : THE 2022 OFFICIAL LONDON FRESHERS GUIDE - THE COMPLETE FRESHERS EXPERIENCE!",
+      "starts-at": "2022-09-10T12:00:00+01:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/announcer",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/categories",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/lineups",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/location",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "3318fa47-9881-47bc-9c21-5923205fe035"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/occasions",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/occasions"
+        }
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/page",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "4b36727c-146d-49af-b2ec-f5f3d28186cf"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/rep-incentives"
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/tickets",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/212a5d49-eb09-42e5-8598-9e3a7b517924/relationships/tracking-codes"
+        }
+      }
+    }
+  }, {
+    "type": "events",
+    "id": "5bca9417-0323-4f90-8aab-1577f3ff00f1",
+    "attributes": {
+      "name": "F*CK ME It's Freshers | The UK's BIGGEST Freshers Tour - Sign Up NOW for Freshers 2022!",
+      "starts-at": "2022-09-04T22:00:00+01:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/announcer",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/categories",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/lineups",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/location",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "025dd1fe-5636-4dbe-b0e2-dcd86f4435b0"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/occasions",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/occasions"
+        },
+        "data": [{
+          "type": "occasions",
+          "id": "e2f67ae4-8804-480a-81cd-b94bc69df12a"
+        }]
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/page",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "f039eca8-132f-4a31-ab78-500612606e79"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/rep-incentives"
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/tickets",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/5bca9417-0323-4f90-8aab-1577f3ff00f1/relationships/tracking-codes"
+        }
+      }
+    }
+  }, {
+    "type": "events",
+    "id": "6fe85671-2c9d-4a80-aadb-85896e69f7ad",
+    "attributes": {
+      "name": "Toast • Pancake Day Party • Revolution \u0026 Walkabout",
+      "starts-at": "2022-03-01T22:00:00+00:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/announcer",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/categories",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/lineups",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/location",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "fc4ecd96-2760-47a4-97f1-95462eb69c80"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/occasions",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/occasions"
+        }
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/page",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "8b3d6049-2db1-464e-ac7f-4e70c1658ff5"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/rep-incentives"
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/tickets",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/6fe85671-2c9d-4a80-aadb-85896e69f7ad/relationships/tracking-codes"
+        }
+      }
+    }
+  }, {
+    "type": "events",
+    "id": "845fa241-0071-4dee-b7f7-527b0d995fe7",
+    "attributes": {
+      "name": "The Milkshake, Ministry of Sound UV Rave ⚡ March 2022 - ⚠️  BUY TICKETS NOW ⚠️ ",
+      "starts-at": "2022-03-15T22:00:00+00:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/announcer",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/categories",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/lineups",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/location",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "37f5c194-3b9e-46f1-a0ab-6dd7cbe27a44"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/occasions",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/occasions"
+        }
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/page",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "cf1c5642-94c6-4078-a72a-125d49a7b90d"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/rep-incentives"
+        },
+        "meta": {
+          "amount-max": 100,
+          "amount-min": 100
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/tickets",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/845fa241-0071-4dee-b7f7-527b0d995fe7/relationships/tracking-codes"
+        }
+      }
+    }
+  }, {
+    "type": "events",
+    "id": "1ec34274-5a70-445e-a6cd-083aff0b35db",
+    "attributes": {
+      "name": "The Biggest A-Level Results Night Party @ Fire \u0026 Lightbox! 6 ROOMS + HUGE OUTDOOR GARDEN - 10th August 2021 - ⚠️ This event WILL SELL OUT ⚠️",
+      "starts-at": "2022-08-11T22:00:00+01:00"
+    },
+    "relationships": {
+      "announcer": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/announcer",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/announcer"
+        }
+      },
+      "categories": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/categories",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/categories"
+        },
+        "data": [{
+          "type": "categories",
+          "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2"
+        }]
+      },
+      "co-promoted-pages": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/co-promoted-pages",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/co-promoted-pages"
+        }
+      },
+      "lineups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/lineups",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/lineups"
+        }
+      },
+      "location": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/location",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/location"
+        },
+        "data": {
+          "type": "locations",
+          "id": "23a8140f-b0e5-4e0a-9913-dfade4b6375a"
+        }
+      },
+      "occasions": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/occasions",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/occasions"
+        }
+      },
+      "page": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/page",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/page"
+        },
+        "data": {
+          "type": "pages",
+          "id": "4b36727c-146d-49af-b2ec-f5f3d28186cf"
+        }
+      },
+      "rep-incentives": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/rep-incentives",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/rep-incentives"
+        }
+      },
+      "survey-form": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/survey-form",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/survey-form"
+        }
+      },
+      "ticket-links": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/ticket-links",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/ticket-links"
+        }
+      },
+      "ticket-option-groups": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/ticket-option-groups",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/ticket-option-groups"
+        }
+      },
+      "ticket-options": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/ticket-options",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/ticket-options"
+        },
+        "meta": {
+          "access-code-options-count": 0
+        }
+      },
+      "tickets": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/tickets",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/tickets"
+        }
+      },
+      "tracking-codes": {
+        "links": {
+          "related": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/tracking-codes",
+          "self": "https://api.fatsoma.com/v1/events/1ec34274-5a70-445e-a6cd-083aff0b35db/relationships/tracking-codes"
+        }
+      }
+    }
+  }],
+  "included": [{
+    "type": "categories",
+    "id": "b5e903ca-1c7f-4ab6-868a-a4f5cdc106c2",
+    "attributes": {
+      "name": "Club Nights"
+    }
+  }, {
+    "type": "locations",
+    "id": "0c458e9b-3707-4dca-9e7e-ec183644da8f",
+    "attributes": {
+      "name": "ELECTRIK WAREHOUSE"
+    }
+  }, {
+    "type": "locations",
+    "id": "745d4178-1dc7-42b6-b1f9-2de3ad60151f",
+    "attributes": {
+      "name": "Zanzibar"
+    }
+  }, {
+    "type": "locations",
+    "id": "54fd3db8-7c80-484f-929c-a81e89a0bba8",
+    "attributes": {
+      "name": "Zanzibar"
+    }
+  }, {
+    "type": "occasions",
+    "id": "e2f67ae4-8804-480a-81cd-b94bc69df12a",
+    "attributes": {
+      "name": "Freshers Week",
+      "vanity-name": "freshers-week",
+      "starts-at": "2022-09-12T00:00:00+00:00",
+      "ends-at": "2022-10-07T00:00:00+00:00"
+    }
+  }, {
+    "type": "locations",
+    "id": "21b2f5c6-f656-4185-ae64-06d950900d02",
+    "attributes": {
+      "name": "Various Venues"
+    }
+  }, {
+    "type": "categories",
+    "id": "7c250c41-1695-4faa-b5e0-a87f0a734ece",
+    "attributes": {
+      "name": "Fun Things"
+    }
+  }, {
+    "type": "locations",
+    "id": "2b526aa1-d130-4491-988d-db41a22789e6",
+    "attributes": {
+      "name": "London, UK"
+    }
+  }, {
+    "type": "locations",
+    "id": "3318fa47-9881-47bc-9c21-5923205fe035",
+    "attributes": {
+      "name": "The Best Superclubs In"
+    }
+  }, {
+    "type": "locations",
+    "id": "025dd1fe-5636-4dbe-b0e2-dcd86f4435b0",
+    "attributes": {
+      "name": "Various Venues"
+    }
+  }, {
+    "type": "locations",
+    "id": "fc4ecd96-2760-47a4-97f1-95462eb69c80",
+    "attributes": {
+      "name": "Revolution Bournemouth"
+    }
+  }, {
+    "type": "locations",
+    "id": "37f5c194-3b9e-46f1-a0ab-6dd7cbe27a44",
+    "attributes": {
+      "name": "Ministry of Sound"
+    }
+  }, {
+    "type": "locations",
+    "id": "23a8140f-b0e5-4e0a-9913-dfade4b6375a",
+    "attributes": {
+      "name": "FIRE Nightclub"
+    }
+  }],
+  "meta": {
+    "author": "Fatsoma",
+    "license-url": "https://www.fatsoma.com/policies/api",
+    "total-count": 8837,
+    "total-pages": 884
+  }
+}
