@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="Events" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="VNA-kN-gtH" id="Cah-lf-aHA"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Lwu-Pg-mzD"/>
             </connections>
         </placeholder>
@@ -18,8 +19,26 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="VNA-kN-gtH">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YVd-6d-eSc">
+                        <size key="itemSize" width="320" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VNA-kN-gtH" secondAttribute="trailing" id="1Vj-Dy-w9x"/>
+                <constraint firstItem="VNA-kN-gtH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="BmL-jv-kZk"/>
+                <constraint firstItem="VNA-kN-gtH" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Fb0-3B-N4C"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="VNA-kN-gtH" secondAttribute="bottom" id="Sw5-lg-Av3"/>
+            </constraints>
             <point key="canvasLocation" x="132" y="102"/>
         </view>
     </objects>
