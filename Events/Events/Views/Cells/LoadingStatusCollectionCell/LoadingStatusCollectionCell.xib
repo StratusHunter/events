@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LoadingStatusCollectionCell" id="UtL-Pa-P3S" customClass="LoadingStatusCollectionCell" customModule="Events" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ik8-3j-j40">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ged-oh-tvg">
+                        <rect key="frame" x="16" y="16" width="290" height="50"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="cl0-kf-XSP">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="50"/>
+                                <color key="color" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEU-UG-7lM">
+                                <rect key="frame" x="36" y="0.0" width="254" height="50"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Ged-oh-tvg" secondAttribute="trailing" constant="16" id="CM3-y8-XUu"/>
+                    <constraint firstItem="Ged-oh-tvg" firstAttribute="leading" secondItem="Ik8-3j-j40" secondAttribute="leading" constant="16" id="Nao-xD-SKr"/>
+                    <constraint firstItem="Ged-oh-tvg" firstAttribute="top" secondItem="Ik8-3j-j40" secondAttribute="top" constant="16" id="qWy-R2-7qU"/>
+                    <constraint firstAttribute="bottom" secondItem="Ged-oh-tvg" secondAttribute="bottom" constant="16" id="zY8-do-vGS"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="322" height="82"/>
+            <connections>
+                <outlet property="activityIndicator" destination="cl0-kf-XSP" id="XxC-Ew-0SG"/>
+                <outlet property="textLabel" destination="GEU-UG-7lM" id="6rX-DS-hW9"/>
+            </connections>
+            <point key="canvasLocation" x="108.69565217391305" y="22.098214285714285"/>
+        </collectionViewCell>
+    </objects>
+</document>

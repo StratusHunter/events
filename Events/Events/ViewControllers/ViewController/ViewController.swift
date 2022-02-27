@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+
+    private enum Sections: Int, CaseIterable { case events = 0, status }
 
     @IBOutlet private weak var collectionView: UICollectionView!
-
     private let viewModel: ViewModel
-
-    private enum Sections: Int { case events = 0, status }
 
     init(viewModel: ViewModel = ViewModel()) {
 
@@ -30,12 +29,16 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         super.viewDidLoad()
 
         viewModel.loadingChanged = { [weak self] in self?.loadStatusCell(oldValue: $0, newValue: $1) }
+        setupCollectionView()
+        loadMoreEvents()
+    }
 
+    private func setupCollectionView() {
+
+        collectionView.register(R.nib.loadingStatusCollectionCell)
         collectionView.register(R.nib.eventCollectionCell)
         collectionView.delegate = self
         collectionView.dataSource = self
-
-        loadMoreEvents()
     }
 
     private func shouldShowLoadingStatus(_ state: APILoadingState) -> Bool {
@@ -76,6 +79,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                  }
     }
 
+    //MARK - UICollectionViewDelegateFlowLayout
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+
+        CGSize(width: collectionView.bounds.width, height: 100)
+    }
+
     //MARK - UICollectionViewDelegate
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
 
@@ -112,12 +121,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                 cell.setup(text: "cell \(indexPath.row)")
                 return cell
             case .status:
-                let cell = collectionView.dequeue(R.nib.eventCollectionCell, for: indexPath)
-                cell.setup(text: "\(viewModel.loadingState)")
+                let cell = collectionView.dequeue(R.nib.loadingStatusCollectionCell, for: indexPath)
+                cell.setup(status: viewModel.loadingState)
                 return cell
-            default: return UICollectionViewCell()
+            default: return UICollectionViewCell() //Should never get here
         }
     }
 
-    internal func numberOfSections(in collectionView: UICollectionView) -> Int { 2 }
+    internal func numberOfSections(in collectionView: UICollectionView) -> Int { Sections.allCases.count }
 }
