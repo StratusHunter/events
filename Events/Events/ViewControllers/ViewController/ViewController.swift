@@ -118,7 +118,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         switch (Sections(rawValue: indexPath.section)) {
             case .events:
                 let cell = collectionView.dequeue(R.nib.eventCollectionCell, for: indexPath)
-                cell.setup(text: "cell \(indexPath.row)")
+                let (event, location) = viewModel.models(at: indexPath.row)
+                cell.setup(event: event, location: location)
                 return cell
             case .status:
                 let cell = collectionView.dequeue(R.nib.loadingStatusCollectionCell, for: indexPath)

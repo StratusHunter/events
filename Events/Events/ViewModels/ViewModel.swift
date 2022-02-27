@@ -30,6 +30,13 @@ class ViewModel {
         self.pageSize = pageSize
     }
 
+    func models(at row: Int) -> (EventContainer?, LocationContainer?) {
+
+        if (row >= events.count) { return (nil, nil) }
+        let event = events[row]
+        return (event, locations.first { $0.id == event.location })
+    }
+
     func loadMoreEvents(onComplete: @escaping (Int, Int) -> ()) {
 
         if (loadingState == .loading || loadingState == .finished) { return }
