@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Events
+
+  Created by Terence Baker on 27/02/2022.
+  
+*/
+
+"Loading"="Loading";
+"Failed. Try Again?"="Failed. Try Again?";
+"Unknown"="Unknown";
